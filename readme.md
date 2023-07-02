@@ -2,7 +2,7 @@
  </h1>
 
 <p align="center">
-  <img alt="Calculadora Gasolina ou Álcool" src=".github/preview.jpg" width="100%">
+  <img alt="Calculadora Gasolina ou Álcool" src=".github/previa.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
