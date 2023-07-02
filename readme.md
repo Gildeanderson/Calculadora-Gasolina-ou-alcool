@@ -17,11 +17,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Entenda como o calculo é feito
 
-
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
-
-Feito com ♥ by Gildeanderson :wave:
+Feito com ♥ by Gildeanderson :wave:# calculadora
