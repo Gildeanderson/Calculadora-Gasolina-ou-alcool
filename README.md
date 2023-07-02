@@ -22,5 +22,4 @@ Entenda como o calculo é feito
 Esse projeto está sob a licença MIT.
 
 ---
-
 Feito com ♥ by Gildeanderson :wave:# calculadora
