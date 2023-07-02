@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Gasolina ou Álcool</title>
+</head>
+<body>
+    <main class="container">
+        <img class="logo" src="./assets/logo.png" alt="Bomba de combustível">
+    <h1 class="title">Qual a melhor opção?</h1>
+
+    <form onsubmit="calcular(event)" class="form">
+        <label>Álcool (preço por litro):</label>
+        <input class="input"
+        id="alcool"
+        type="number"
+        placeholder="R$ 4.10"
+        min="1"
+        step="0.01"
+        required="*"
+        >
+
+        <label>Gasolina (preço por litro):</label>
+        <input class="input"
+        id="gasolina"
+        type="number"
+        placeholder="R$ 5.35"
+        min="1"
+        step="0.01"
+        required="*"
+        >
+        <input class="button" 
+        type="submit" value="Calcular">
+
+        </form>
+
+    <section id="content-hide" class="result hide">
+        <span id="text-result">Compensa usar álcool</span>
+        <span id="alcool-result">Álcool R$4.10</span>   
+        <span id="gasolina-result">Gasolina R$5.35</span>
+
+    </section>   
+
+    </main>
+
+    <div class="info">
+        <span class="tooltip">Veja como é feito o calculo</span>
+        <a href="calculo.html"><img class="info-img" src="./assets/info.png" alt="caixinha de dúvidas"></a>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
